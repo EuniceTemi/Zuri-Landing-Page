@@ -1,3 +1,5 @@
+
+
 main{
     position: relative;
     top: 70px;
@@ -16,9 +18,9 @@ header{
     z-index: 1000;
 }
 
-header img{
-    width: 200px;
-    height: 250px;
+header p{
+    font-size: 30px;
+    font-weight: bolder;
     margin-left: 30px;
     padding: 5px;
 
@@ -59,7 +61,7 @@ header li{
 }
 
 #yellow-line{
-    width: 10px;
+    width: 5px;
     height: 5px;
 }
 
@@ -89,3 +91,179 @@ header li{
     border: none;
     font-size: 15px;
 }
+
+#section2{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    padding: 100px;
+    background-color: rgb(245, 239, 240);
+    margin-top: 50px;
+}
+
+#section2 #section2-img{
+    height: 450px;
+    width: 450px;
+}
+
+#section2 h3{
+    font-size: 40px;
+    font-weight: 900;
+}
+
+#section2 #p1{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#section2 #p2{
+    font-size: 20px;
+    font-weight: 10;
+}
+
+#flags{
+    display: flex;
+    gap: 14px;
+    width: 70px;
+
+}
+
+#GER-flag{
+   background-color: white;
+   width: 60px;
+   height: 30px;
+   border-radius: 5px;
+   padding: 20px;
+
+}
+
+#IND-flag{
+    background-color: white;
+    width: 60px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+#ENG-flag{
+    background-color: white;
+    width: 60px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 20px;
+
+}
+
+#NIG-flag{
+    background-color: white;
+    width: 60px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 20px;
+
+}
+
+#USA-flag{
+    background-color: white;
+    width: 60px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+#section3{
+    padding-left: 100px;
+    padding-top: 80px;
+}
+
+#section3 h3{
+    font-size: 45px;
+}
+
+#section3btns{
+    display: flex;
+    gap: 20px;
+}
+
+#section3btns button{
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    width: 250px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+#section3btns-b {
+    display: flex;
+    gap: 30px;
+    padding: 30px;
+}
+
+#section3btns-b button{
+    background-color: white;
+   width: auto;
+   height: 40px;
+   border: none;
+   border-radius: 7px;
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+   font-size: 18px;
+   font-weight: 600;
+   padding: 20px;
+   padding-top: 10px;
+}
+
+#section4{
+    background-color: rgb(245, 239, 240);
+    padding-top: 50px;
+}
+
+#section4 h3{
+    text-align: center;
+    font-size: 35px;
+}
+
+#flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    height: 800px;
+    justify-content: center;
+}
+
+#flex1, #flex2, #flex3, #flex4, #flex5{
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    height: 250px;
+    padding: 30px;
+}
+
+#flex img{
+    width: 30%;
+}
+
+#flex p{
+    font-size: 20px;
+}
+
+#flex1:hover, #flex2:hover, #flex3:hover, #flex4:hover, #flex5:hover{
+    background-color: black;
+    color: white;
+}
+
+#sec4-btns{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+
+ 
