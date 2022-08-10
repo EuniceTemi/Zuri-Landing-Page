@@ -105,18 +105,20 @@ bottom: 50px;
 
 
 #container{
+   background-color: rgb(247, 242, 242);
    display: grid;
    grid-template-columns: 420px 420px 420px;
    grid-template-rows: 450px 450px;
    grid-gap: 20px 10px;
    justify-items: center;
-
+   padding: 30px;
 }
+
 
 #box1, #box2, #box3, #box4, #box5, #box6{
     line-height: 90px;
     width: 350px;
-
+   
 }
 
 #box1{
@@ -124,38 +126,39 @@ bottom: 50px;
    border-radius: 30px;
    padding: 30px;
    font-weight: bolder;
+   color: white;
 }
 
 #box2{
-   background-color:blanchedalmond;
+   background-color: white;
    border-radius: 30px;
    padding: 30px;
    font-weight: bolder;
 }
 
 #box3{
-   background-color:blanchedalmond;
+   background-color: white;
    border-radius: 30px;
    padding: 30px;
    font-weight: bolder;
 }
 
 #box4{
-   background-color:blanchedalmond;
+   background-color: white;
    border-radius: 30px;
    padding: 30px;
    font-weight: bolder;
 }
 
 #box5{
-   background-color:blanchedalmond;
+   background-color: white;
    border-radius: 30px;
    padding: 30px;
    font-weight: bolder;
 }
 
 #box6{
-   background-color:blanchedalmond;
+   background-color: white;
    border-radius: 30px;
    padding: 30px;
    font-weight: bolder;
