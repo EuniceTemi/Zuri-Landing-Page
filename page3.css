@@ -208,6 +208,11 @@ header li{
 
 }
 
+#section3 button:hover{
+    position: relative;
+    top: -15px;
+}
+
 #section3btns-b {
     display: flex;
     gap: 30px;

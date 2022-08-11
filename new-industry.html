@@ -15,10 +15,10 @@
 
     <div>
     <ul id="headerul">
-        <li id="headerli">About</li>
-        <li id="headerli">Why Us?</li>
-        <li id="headerli">Stacks Covered</li>
-        <li id="headerli">FAQS</li>
+        <li id="headerli"><a href="#intro2">About</a></li>
+        <li id="headerli"><a href="#why-us">Why Us?</a></li>
+        <li id="headerli"><a href="#grid-container">Stacks Covered</a></li>
+        <li id="headerli"><a href="#FAQs">FAQs</a></li>
     </ul>
     </div>
 
@@ -57,7 +57,7 @@
 
 
 <img src = "section3wire.svg">
-<div style="display: flex; flex-direction: row; gap: 100px;" >
+<div id="why-us" style="display: flex; flex-direction: row; gap: 100px;" >
     <div>
     <h5 style="font-size: 20px; color: red;">Why Zuri Training?</h5>
 <p style="font-size: 40px; position: relative; bottom: 40px;">Here at Zuri, you gain access to<br> enough knowledge to introduce <br>and aid your success in the tech <br>industry.</p>
@@ -198,26 +198,30 @@
    
     <hr>
 
-<div id="FAQ">
+<div id="FAQs">
       <h5>Got Questions?</h5>
       <p>Frequently Asked Questions</p>
    <div id="questions" >
-        <p class="question" >Would I have to pay to enroll for the training?</p>
-        <p class="question">What are the things I would need to participate?</p>
-        <p class="question">What happens if i join and I’m not active?</p>
-        <p class="question">Can I switch from the part-time track to full-time and vice versa?</p>
-        <p class="question">Will I get paid?</p>
+    <table>
+    
+        <tr><td class="question" >Would I have to pay to enroll for the training?</td></tr>
+        <tr><td class="question">What are the things I would need to participate?</td></tr>
+        <tr><td class="question">What happens if i join and I’m not active?</td></tr>
+        <tr><td class="question">Can I switch from the part-time track to full-time and vice versa?</td></tr>
+        <tr><td class="question">Will I get paid?</td></tr>
+   </table>
     </div>
-    <p class="question">Still got questions? <button style="background-color: red; width: 180px; height: 40px; border-radius: 30px;">Tweet them at us</button><p></p>
+
+    <p class="question" style="font-size: 20px; font-weight:lighter; padding: 25px;">Still got questions? <button style="background-color: red; color:white; width: 180px; height: 40px; border: none; border-radius: 30px;">Tweet them at us</button><p></p>
 </div>
 
 <hr>
 
 <div id="structure">
 <div id="structure-hd">
-    <p>Structure</p>
-    <p>Program Structure</p>
-    <p>There are 2 broad paths in this program based on your availability.</p>
+    <p style="color: red; font-size: 30px;">Structure</p>
+    <p style="font-size: 60px;">Program Structure</p>
+    <p style="font-size: 20px;">There are 2 broad paths in this program based on your availability.</p>
 </div>
 
 <div id="strFlex">
@@ -275,14 +279,32 @@
 <div id="getstarted" >
   <h5>Get Started</h5>
   <p>Break into the tech<br> industry like a Pro</p>
-  <button style="background-color: red; color: white; width: 140px; height: 40px; font-size: 18px; border-radius: 20px; border: 0;">Enroll now</button>
+  <button style="background-color: white; color: red; width: 140px; height: 40px; font-size: 18px; border-radius: 20px; border: 0;">Enroll now</button>
 </div>
 
 
 </main>
 
 
-<footer></footer>
+<footer>
+    <div id="copyright">
+        <img src="logo-zuriXI4G.svg" >
+        <p>© 2022 Zuri Training</p>
+    </div>
+    <div>
+        <div id="imgs">
+            <img src="facebook2.svg">
+            <img src="linkd2.svg">
+            <img src="twitter2.svg">
+            <img src="youtube2.svg">   
+        </div>  
+        <div>
+            <p>Privacy Policy</p>
+            <p>Ingressive For Good</p>
+        </div> 
+     </div>
+
+</footer>
 
 
 </body>

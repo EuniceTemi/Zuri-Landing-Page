@@ -23,6 +23,11 @@ header{
   background-color: white;
 }
 
+header a{
+   text-decoration: none;
+   color: black;
+}
+
 #zurilogo1{
 width: 300px;
 }
@@ -119,6 +124,11 @@ bottom: 50px;
     line-height: 90px;
     width: 350px;
    
+}
+
+#box1:hover, #box2:hover, #box3:hover, #box4:hover, #box5:hover, #box6:hover{
+   position: relative;
+   top: -13px 
 }
 
 #box1{
@@ -270,10 +280,37 @@ box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 padding: 40px;
 }
 
-#FAQ{
+#FAQs{
    margin: auto;
    text-align: center;
 }
+
+#FAQs h5{
+   font-size: 27px;
+   color: red;
+   position: relative;
+   top: 40px;
+}
+
+#FAQs p{
+   font-size: 40px;
+   font-weight: bolder;
+}
+
+table{
+   width: 70%;
+   margin: auto;
+   border-spacing: 0;
+}
+
+td{
+   border: 1px solid black;
+   height: 85px;
+   text-align: start;
+   padding-left: 20px;
+   font-size: 20px;
+   font-weight: bolder;
+}  
 
 #questions{
    display: flex;
@@ -285,16 +322,19 @@ padding: 40px;
 
 #structure{
     margin-left: 100px;
+    padding-top: 200px;
 }
 
 #structure-hd{
    text-align: center;
+   line-height: 2px;
 }
 
 #strFlex{
    display: flex;
    justify-content: center;
    gap: 50px;
+   padding-top: 45px;
 }
 
 #strFlex1{
@@ -336,4 +376,10 @@ font-size: 20px;
 
 #getstarted p{
    font-size: 50px;
+   }
+
+   footer{
+      position: relative;
+      top: 500px;
+      display: flex;
    }
